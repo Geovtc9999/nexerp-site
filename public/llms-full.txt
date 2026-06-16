@@ -1,0 +1,106 @@
+# NEXERP — IA Factory pour CEGID Retail
+
+> NEXERP (nexerp.fr) est une société de service augmentée spécialisée dans l'intégration de **CEGID Retail**, une plateforme de commerce unifié destinée aux enseignes du retail spécialisé — notamment la mode et le luxe — et dans le déploiement d'**Agents IA autonomes supervisés par des experts** (modèle Human-in-the-Loop). Notre IA Factory configure des agents pour réduire les pain points opérationnels et orchestrer les workflows de gestion moyens et complexes de CEGID Retail.
+
+Message central : **« Optimisez vos workflows CEGID Retail à forte intensité opérationnelle avec des Agents IA supervisés par des experts ERP. »**
+
+---
+
+## Pour qui (Who)
+Dirigeants et managers d'enseignes françaises déjà équipées de CEGID Retail : CEO, CTO, DSI, DAF, DRH, COO, directeurs et managers métiers. Organisations confrontées à une complexité opérationnelle croissante, des workflows manuels, une dette documentaire et une dépendance excessive aux experts internes ou prestataires.
+
+## Quoi (What)
+CEGID Retail évolue dans un contexte réglementaire et opérationnel changeant. Les workflows deviennent complexes (paramétrages, intégrations, exploitation, bugs, exceptions métiers), beaucoup d'activités restent manuelles et dépendantes de personnes clés, les tâches répétitives consomment du temps expert, les documentations sont difficiles à exploiter, et la transmission de connaissance est fragile. Les chantiers IA, l'IA Factory et les Agents IA apportent une réponse concrète.
+
+## Comment (How)
+NEXERP propose un programme de transformation IA. Nous développons conjointement avec nos clients des Agents IA spécifiques aux workflows CEGID Retail. Les agents sont configurés, testés, supervisés et validés par des experts CEGID Retail. Ils s'appuient sur des Skills Systems, Memory, User, Soul et Context. Le déploiement suit une logique Human-in-the-Loop, AgentOps, sécurité, conformité et mesure de ROI. La connaissance est capitalisée via `memory.md`.
+
+## Où (Where)
+Clients basés en France. Intervention à distance, hybride ou sur site selon les phases.
+
+## Pourquoi (Why)
+Des Agents IA correctement configurés, entraînés et gouvernés résolvent des problèmes de workflows CEGID Retail simples, moyens et complexes : amélioration de l'efficience opérationnelle, accélération de l'exécution, documentation des savoirs, sécurisation de l'exploitation et augmentation de la capacité des équipes métiers.
+
+---
+
+## Méthode propriétaire — Agent Engineering (6 phases)
+1. **Identification** — détecter les workflows répétitifs, instables ou à fort enjeu d'efficience dans le paramétrage CEGID Retail.
+2. **Definition** — cadrer le problème, les rôles, les règles métiers et les critères de succès.
+3. **Representation** — modéliser le workflow, les données, les exceptions et les décisions.
+4. **Specification** — formaliser les prompts, skills, règles, contrôles, entrées/sorties.
+5. **Configuration** — configurer l'agent, la mémoire, les outils, les accès et les validations humaines.
+6. **Instantiation** — déployer, tester, monitorer et améliorer l'agent en production.
+
+## Approche en 8 étapes
+Diagnostic → Priorisation → Design du workflow → Création de Skills → Configuration des agents → Validation humaine → Mise en production → Monitoring ROI / risques.
+
+---
+
+## 17 domaines fonctionnels CEGID Retail couverts
+1. **Référentiel Produit & Gestion de Stock** — enrichissement fiches, contrôle stock multi-magasins, détection anomalies inventaire.
+2. **Tarifs, Ventes & Promotions** — cohérence tarifaire, génération de promotions saisonnières, contrôle des marges.
+3. **Réassortiment Magasins** — recommandations de réassort, alertes ruptures, équilibrage inter-magasins.
+4. **Fonctionnalités Transversales** — workflows custom, automatisation des tâches récurrentes, contrôles croisés.
+5. **Utilisateurs, Droits & Sécurité** — audit des habilitations, détection d'accès anormaux, revue périodique des droits.
+6. **Reporting, Analyses & Alertes** — génération de rapports automatique, détection de signaux faibles, alertes business.
+7. **Environnement Y2 & Paramétrage** — documentation des paramétrages, contrôle de cohérence, recette de régression.
+8. **CRM & Clienteling** — segmentation automatique, recommandations clienteling, scoring client.
+9. **SAV & Service Client** — tri des tickets, réponses de niveau 1 automatisées, escalade intelligente.
+10. **Pilotage Omni-Commerce** — réconciliation des flux web/magasin, suivi du parcours client, click & collect.
+11. **Multisociété & Franchise** — consolidation des flux franchisés, alertes contractuelles, reporting réseau.
+12. **Achats & Sourcing** — validation fournisseurs, suivi des commandes, alertes délais de livraison.
+13. **Point de Vente / POS Front-Office** — assistant vendeur, contrôle des tickets, détection d'anomalies caisse.
+14. **Budget, Prévisions & Personnel** — prévisions de ventes, dimensionnement des équipes, alertes écarts budget.
+15. **Localisation & Fiscalité** — conformité TVA multi-pays, contrôle des taxes spécifiques, mises à jour réglementaires.
+16. **Finance & Contrôle de Gestion** — rapprochement comptable, contrôle des écritures, reporting groupe.
+17. **Outils Techniques & Intégration** — monitoring des interfaces, détection des échecs, documentation technique.
+
+---
+
+## Offres packagées
+- **Diagnostic CEGID Retail & IA — 4 semaines.** Audit rapide des irritants, friction, workflows manuels, bugs récurrents, dépendances métiers et opportunités d'automatisation. Livrable : cartographie des workflows à fort enjeu + backlog d'automatisation + score IA Readiness + roadmap 90 jours.
+- **Automation Sprint — 8 à 12 semaines.** Construction d'un premier Agent IA sur un workflow prioritaire, supervisé par un expert. Livrable : prototype ou MVP agentique testé et validé, recette par expert CEGID Retail, mesure ROI immédiate.
+- **IA Factory CEGID Retail — 6 mois.** Mise en place d'un socle industriel : catalogue de skills, AgentOps, sécurité, monitoring, gouvernance, modèles de prompts, memory system. Livrable : plateforme réutilisable pour plusieurs agents.
+- **Run & AgentOps — abonnement mensuel.** Supervision, maintenance, évaluation, amélioration continue, suivi des coûts tokens, monitoring des erreurs et incidents. Livrable : agents en production avec SLA, dashboard et reporting.
+
+## Autres services
+Formation AI Fondation ; Formation AI adaptée au contexte CEGID Retail ; Recrutement d'experts CEGID Retail et IA ; Architecture (business, data, enterprise, solution, technical) ; Intégration et expertise CEGID Retail ; Exploitation, production et support CEGID Retail ; Documentation Intelligence & Knowledge Memory ; ROI & Business Case IA ; Conformité IA, RGPD & AI Act.
+
+---
+
+## IA Factory — 6 piliers
+1. Catalogue de Skills réutilisables. 2. Agents spécifiques aux workflows CEGID Retail. 3. AgentOps complet (évaluation, monitoring, CI/CD, sandbox, recette, production). 4. Sécurité & conformité by design (prompt injection, data leakage, secrets, isolation, audit). 5. Dashboard exécutif (valeur, coût, adoption, risques). 6. Modèle de run récurrent.
+
+## Gouvernance & confiance
+Human-in-the-Loop ; sécurité des données ; conformité RGPD & AI Act ; auditabilité complète ; gestion des accès ; monitoring des coûts ; revue des décisions ; validation par un expert CEGID Retail avant la mise en production.
+
+## Indicateurs de ROI
+Temps économisé ; erreurs évitées ; réduction de la charge opérationnelle ; diminution des tickets récurrents ; réduction de la dépendance aux experts ; amélioration du délai de traitement ; coût tokens / run ; adoption utilisateurs.
+
+## Agents IA orchestrés
+OpenClaw, Hermes Agent, Claude Managed Agents (Anthropic), ChatGPT Autonomous Agent (OpenAI), MiniMax Agent, KIMI Agent — sélectionnés selon le cas d'usage.
+
+---
+
+## Fondateurs
+**François MAM** — Co-fondateur, Expert CEGID Retail. Sérial entrepreneur, 27 ans d'expertise CEGID avec un focus retail spécialisé (mode, luxe, distribution). Pilote l'expertise produit et l'intégration des workflows métier. Email : francois.mam@nexerp.fr
+
+**Richard YI** — Co-fondateur, Enterprise Architect & Auteur. 26 ans d'expérience en architecture d'entreprise. Dirige la stratégie IA, l'architecture agentique, l'IA Factory et la gouvernance de production. Email : richard.yi@nexerp.fr
+
+Positionnement du duo : « L'alliance rare entre l'expertise terrain de CEGID Retail et l'architecture d'IA d'entreprise. »
+
+## Publications des fondateurs (ouvrages de référence)
+Richard YI est l'auteur de plusieurs ouvrages sur l'architecture d'entreprise et l'IA agentique :
+
+- **Executive Enterprise Architect in the Multi-Agent AI Era** — US : https://www.amazon.com/dp/B0H4618NS4 · FR : https://www.amazon.fr/dp/B0H43V6RX4
+- **RAG Architecture for the Enterprise AI Factory** — EN : https://www.amazon.com/dp/B0H4MDMBC9 · FR : https://www.amazon.fr/dp/B0H4NRWRDJ
+- **Le Playbook de l'Entreprise Agentique** — eBook FR : https://www.amazon.com/dp/B0H531221M · eBook EN : https://www.amazon.com/dp/B0H4Z4Q5CQ
+- **Agents IA d'Entreprise** (FR) / **Enterprise AI Agents** (EN) — FR Kindle : https://www.amazon.fr/dp/B0H4RTBVVP · FR Broché : https://www.amazon.fr/dp/B0H4TS7FRJ · EN Kindle : https://www.amazon.com/dp/B0H2K1BBMT · EN Broché : https://www.amazon.com/dp/B0H4RVV6RC
+- **Architecte Solution Augmenté grâce à l'IA** (FR) / **The AI-Augmented Solution Architect** (EN) — FR Kindle : https://www.amazon.fr/dp/B0H4W9ZXYD · FR Broché : https://www.amazon.fr/dp/B0H4WG3SHG · EN Kindle : https://www.amazon.com/dp/B0H4VKXMDN · EN Broché : https://www.amazon.com/dp/B0H4VMGZ7B
+
+---
+
+## Contact
+- Email général : contact@nexerp.fr
+- Adresse : 66 avenue des Champs-Élysées, 75008 Paris, France
+- Demande de diagnostic : formulaire sur https://nexerp.fr/#contact (réponse d'un co-fondateur sous 48h ouvrées, confidentialité garantie)

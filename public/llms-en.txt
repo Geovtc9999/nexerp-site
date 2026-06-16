@@ -1,0 +1,30 @@
+# NEXERP — AI Factory for CEGID Retail
+
+> NEXERP is an augmented services company specialized in integrating **CEGID Retail** — a unified commerce platform for specialty retail (fashion, luxury, distribution) — and deploying **autonomous AI Agents supervised by experts**. NEXERP turns complex, manual, operationally intensive CEGID Retail workflows into operational, secure and measurable AI Agents.
+
+NEXERP combines **27 years of CEGID expertise** and **26 years of enterprise architecture**, a proprietary 6-phase "Agent Engineering" method, a **Human-in-the-Loop** model, an industrialized **AI Factory**, and governance compliant with GDPR / AI Act / DORA. Audience: executives (CEO, CTO, CIO, CFO, CHRO, COO) of French specialty-retail brands running CEGID Retail.
+
+## Main pages
+- [Home](https://nexerp.fr/) : positioning, pain points, method, offers, 17 functional CEGID Retail domains covered, governance, ROI, founders, contact
+- [Legal notice](https://nexerp.fr/mentions-legales) : publisher and host legal information (French)
+- [Privacy policy](https://nexerp.fr/politique-confidentialite) : personal data processing, GDPR rights (French)
+
+## Packaged offers
+- **CEGID Retail & AI Diagnostic** (4 weeks): mapping of high-stakes workflows + automation backlog
+- **Automation Sprint** (8 to 12 weeks): first AI Agent on a priority workflow, supervised by an expert
+- **CEGID Retail AI Factory** (6 months): industrialization of agents, skills, memory, AgentOps and governance
+- **Run & AgentOps** (monthly subscription): supervision, monitoring, ROI and risk reduction in production
+
+## Proprietary method — Agent Engineering (6 phases)
+1. Identification — 2. Definition — 3. Representation — 4. Specification — 5. Configuration — 6. Instantiation
+
+## Contact
+- Email: contact@nexerp.fr
+- François MAM (CEGID Retail Expert): francois.mam@nexerp.fr
+- Richard YI (Enterprise Architect & Author): richard.yi@nexerp.fr
+- Address: 66 avenue des Champs-Élysées, 75008 Paris, France
+
+## LLM resources
+- [Full / detailed context (EN)](https://nexerp.fr/llms-full-en.txt)
+- [Index LLM en français](https://nexerp.fr/llms.txt)
+- [Contexte complet en français](https://nexerp.fr/llms-full.txt)

@@ -1,0 +1,42 @@
+# robots.txt — nexerp.fr
+# NEXERP — IA Factory pour CEGID Retail (mode, luxe, retail spécialisé)
+
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# --- Crawlers IA / LLM explicitement bienvenus ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# --- Découverte ---
+# Description du site pour les LLM : /llms.txt (FR) · /llms-en.txt (EN)
+# Version complète : /llms-full.txt (FR) · /llms-full-en.txt (EN)
+Sitemap: https://nexerp.fr/sitemap.xml

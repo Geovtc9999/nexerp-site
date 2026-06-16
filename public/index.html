@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXERP — IA Factory pour CEGID Retail | Agents IA supervisés pour le retail spécialisé</title>
+    <meta name="description" content="NEXERP transforme vos workflows CEGID Retail complexes et manuels en Agents IA opérationnels, sécurisés et mesurables. Spécialiste mode, luxe et retail spécialisé. Diagnostic, Automation Sprint, IA Factory, AgentOps.">
+    <meta name="keywords" content="intégrateur CEGID Retail, automatisation CEGID Retail, IA Factory CEGID Retail, CEGID Retail workflow automation, consultant CEGID Retail France, optimiser workflows CEGID Retail, réduire charge opérationnelle CEGID Retail, exploitation CEGID Retail, AgentOps CEGID Retail, human-in-the-loop CEGID Retail, agents IA autonomes retail">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <link rel="canonical" href="https://nexerp.fr/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nexerp.fr/">
+    <meta property="og:title" content="NEXERP — IA Factory pour CEGID Retail">
+    <meta property="og:description" content="Optimisez vos workflows CEGID Retail avec des Agents IA supervisés par des experts du retail spécialisé.">
+    <meta property="og:image" content="https://nexerp.fr/assets/nexerp-logo.png">
+    <meta property="og:locale" content="fr_FR">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="NEXERP — IA Factory pour CEGID Retail">
+    <meta name="twitter:description" content="Agents IA supervisés par experts CEGID Retail pour le retail spécialisé.">
+
+    <link rel="icon" type="image/png" href="/assets/nexerp-logo.png">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": ["Organization", "ProfessionalService"],
+                "@id": "https://nexerp.fr/#organization",
+                "name": "NEXERP",
+                "legalName": "NEXERP SAS",
+                "url": "https://nexerp.fr/",
+                "logo": { "@id": "https://nexerp.fr/#logo" },
+                "image": { "@id": "https://nexerp.fr/#logo" },
+                "slogan": "Optimisez vos workflows CEGID Retail avec des Agents IA supervisés par des experts ERP.",
+                "description": "Société de service augmentée spécialisée dans l'intégration de CEGID Retail et le déploiement d'Agents IA autonomes supervisés par des experts (Human-in-the-Loop). IA Factory pour le retail spécialisé : mode, luxe, distribution.",
+                "email": "contact@nexerp.fr",
+                "telephone": "[À COMPLÉTER : +33 ...]",
+                "foundingDate": "[À COMPLÉTER : AAAA-MM-JJ]",
+                "vatID": "[À COMPLÉTER : FR + SIREN]",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "66 avenue des Champs-Élysées",
+                    "addressLocality": "Paris",
+                    "postalCode": "75008",
+                    "addressCountry": "FR"
+                },
+                "areaServed": { "@type": "Country", "name": "France" },
+                "knowsAbout": [
+                    "CEGID Retail",
+                    "Commerce unifié",
+                    "Retail spécialisé (mode, luxe)",
+                    "Agents IA autonomes",
+                    "IA Factory",
+                    "AgentOps",
+                    "Retrieval-Augmented Generation (RAG)",
+                    "Architecture d'entreprise",
+                    "Human-in-the-Loop",
+                    "Automatisation des workflows retail",
+                    "Gouvernance de l'IA (RGPD, AI Act, DORA)"
+                ],
+                "founder": [
+                    { "@id": "https://nexerp.fr/#francois-mam" },
+                    { "@id": "https://nexerp.fr/#richard-yi" }
+                ],
+                "hasOfferCatalog": { "@id": "https://nexerp.fr/#service-catalog" },
+                "sameAs": [
+                    "[À COMPLÉTER : URL LinkedIn entreprise]"
+                ]
+            },
+            {
+                "@type": "ImageObject",
+                "@id": "https://nexerp.fr/#logo",
+                "url": "https://nexerp.fr/assets/nexerp-logo.png",
+                "contentUrl": "https://nexerp.fr/assets/nexerp-logo.png",
+                "caption": "NEXERP — IA Factory pour CEGID Retail"
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://nexerp.fr/#website",
+                "url": "https://nexerp.fr/",
+                "name": "NEXERP",
+                "inLanguage": "fr-FR",
+                "publisher": { "@id": "https://nexerp.fr/#organization" }
+            },
+            {
+                "@type": "WebPage",
+                "@id": "https://nexerp.fr/#webpage",
+                "url": "https://nexerp.fr/",
+                "name": "NEXERP — IA Factory pour CEGID Retail | Agents IA supervisés pour le retail spécialisé",
+                "description": "NEXERP transforme vos workflows CEGID Retail complexes et manuels en Agents IA opérationnels, sécurisés et mesurables.",
+                "inLanguage": "fr-FR",
+                "isPartOf": { "@id": "https://nexerp.fr/#website" },
+                "about": { "@id": "https://nexerp.fr/#organization" },
+                "primaryImageOfPage": { "@id": "https://nexerp.fr/#logo" },
+                "breadcrumb": { "@id": "https://nexerp.fr/#breadcrumb" }
+            },
+            {
+                "@type": "Person",
+                "@id": "https://nexerp.fr/#francois-mam",
+                "name": "François MAM",
+                "jobTitle": "Co-fondateur — Expert CEGID Retail",
+                "email": "francois.mam@nexerp.fr",
+                "worksFor": { "@id": "https://nexerp.fr/#organization" },
+                "knowsAbout": ["CEGID Retail", "Intégration ERP", "Retail spécialisé", "Workflows métier"],
+                "sameAs": ["[À COMPLÉTER : URL LinkedIn François MAM]"]
+            },
+            {
+                "@type": "Person",
+                "@id": "https://nexerp.fr/#richard-yi",
+                "name": "Richard YI",
+                "jobTitle": "Co-fondateur — Enterprise Architect & Auteur",
+                "email": "richard.yi@nexerp.fr",
+                "worksFor": { "@id": "https://nexerp.fr/#organization" },
+                "knowsAbout": ["Architecture d'entreprise", "Agents IA", "IA Factory", "RAG", "AgentOps", "Gouvernance IA"],
+                "sameAs": [
+                    "[À COMPLÉTER : URL LinkedIn Richard YI]",
+                    "[À COMPLÉTER : URL page auteur Amazon]"
+                ]
+            },
+            {
+                "@type": "Book",
+                "@id": "https://nexerp.fr/#book-executive-ea",
+                "image": "https://nexerp.fr/assets/COUVERTURE_ExecutiveArchitecteEntreprise_fr.jpg",
+                "name": "Executive Enterprise Architect in the Multi-Agent AI Era",
+                "author": { "@id": "https://nexerp.fr/#richard-yi" },
+                "inLanguage": ["en", "fr"],
+                "sameAs": [
+                    "https://www.amazon.com/dp/B0H4618NS4",
+                    "https://www.amazon.fr/dp/B0H43V6RX4"
+                ]
+            },
+            {
+                "@type": "Book",
+                "@id": "https://nexerp.fr/#book-rag",
+                "image": "https://nexerp.fr/assets/Cover_RAG_Architecture_Enterprise_AI_Factory_FR.jpg",
+                "name": "RAG Architecture for the Enterprise AI Factory",
+                "author": { "@id": "https://nexerp.fr/#richard-yi" },
+                "inLanguage": ["en", "fr"],
+                "sameAs": [
+                    "https://www.amazon.com/dp/B0H4MDMBC9",
+                    "https://www.amazon.fr/dp/B0H4NRWRDJ"
+                ]
+            },
+            {
+                "@type": "Book",
+                "@id": "https://nexerp.fr/#book-playbook",
+                "image": "https://nexerp.fr/assets/AgenticEnterprisePlaybook_fr.jpg",
+                "name": "Le Playbook de l'Entreprise Agentique",
+                "author": { "@id": "https://nexerp.fr/#richard-yi" },
+                "inLanguage": ["fr", "en"],
+                "bookFormat": "https://schema.org/EBook",
+                "sameAs": [
+                    "https://www.amazon.com/dp/B0H531221M",
+                    "https://www.amazon.com/dp/B0H4Z4Q5CQ"
+                ]
+            },
+            {
+                "@type": "Book",
+                "@id": "https://nexerp.fr/#book-enterprise-ai-agents",
+                "image": "https://nexerp.fr/assets/EnterpriseAIAgents_fr.png",
+                "name": "Agents IA d'Entreprise",
+                "alternateName": "Enterprise AI Agents",
+                "author": { "@id": "https://nexerp.fr/#richard-yi" },
+                "inLanguage": ["fr", "en"],
+                "workExample": [
+                    { "@type": "Book", "bookFormat": "https://schema.org/EBook", "inLanguage": "fr", "url": "https://www.amazon.fr/dp/B0H4RTBVVP" },
+                    { "@type": "Book", "bookFormat": "https://schema.org/Paperback", "inLanguage": "fr", "url": "https://www.amazon.fr/dp/B0H4TS7FRJ" },
+                    { "@type": "Book", "bookFormat": "https://schema.org/EBook", "inLanguage": "en", "url": "https://www.amazon.com/dp/B0H2K1BBMT" },
+                    { "@type": "Book", "bookFormat": "https://schema.org/Paperback", "inLanguage": "en", "url": "https://www.amazon.com/dp/B0H4RVV6RC" }
+                ]
+            },
+            {
+                "@type": "Book",
+                "@id": "https://nexerp.fr/#book-solution-architect",
+                "image": "https://nexerp.fr/assets/AI-AugmentedSolutionArchitect_fr.png",
+                "name": "Architecte Solution Augmenté grâce à l'IA",
+                "alternateName": "The AI-Augmented Solution Architect",
+                "author": { "@id": "https://nexerp.fr/#richard-yi" },
+                "inLanguage": ["fr", "en"],
+                "workExample": [
+                    { "@type": "Book", "bookFormat": "https://schema.org/EBook", "inLanguage": "fr", "url": "https://www.amazon.fr/dp/B0H4W9ZXYD" },
+                    { "@type": "Book", "bookFormat": "https://schema.org/Paperback", "inLanguage": "fr", "url": "https://www.amazon.fr/dp/B0H4WG3SHG" },
+                    { "@type": "Book", "bookFormat": "https://schema.org/EBook", "inLanguage": "en", "url": "https://www.amazon.com/dp/B0H4VKXMDN" },
+                    { "@type": "Book", "bookFormat": "https://schema.org/Paperback", "inLanguage": "en", "url": "https://www.amazon.com/dp/B0H4VMGZ7B" }
+                ]
+            },
+            {
+                "@type": "OfferCatalog",
+                "@id": "https://nexerp.fr/#service-catalog",
+                "name": "Offres NEXERP — IA Factory pour CEGID Retail",
+                "itemListElement": [
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Diagnostic CEGID Retail & IA",
+                            "serviceType": "Diagnostic — 4 semaines",
+                            "description": "Audit des irritants, workflows manuels, bugs récurrents et opportunités d'automatisation. Livrable : cartographie + backlog + score IA Readiness.",
+                            "provider": { "@id": "https://nexerp.fr/#organization" }
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Automation Sprint",
+                            "serviceType": "Sprint — 8 à 12 semaines",
+                            "description": "Construction d'un premier Agent IA sur un workflow CEGID Retail prioritaire, supervisé par un expert. Livrable : MVP agentique testé et validé.",
+                            "provider": { "@id": "https://nexerp.fr/#organization" }
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "IA Factory CEGID Retail",
+                            "serviceType": "IA Factory — 6 mois",
+                            "description": "Industrialisation des agents, skills, memory, AgentOps et gouvernance sur l'ensemble du périmètre CEGID Retail.",
+                            "provider": { "@id": "https://nexerp.fr/#organization" }
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Run & AgentOps",
+                            "serviceType": "Run — abonnement mensuel",
+                            "description": "Supervision, maintenance, évaluation et amélioration continue des agents en production, avec SLA, dashboard et reporting ROI.",
+                            "provider": { "@id": "https://nexerp.fr/#organization" }
+                        }
+                    }
+                ]
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": "https://nexerp.fr/#breadcrumb",
+                "itemListElement": [
+                    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://nexerp.fr/" }
+                ]
+            },
+            {
+                "@type": "FAQPage",
+                "@id": "https://nexerp.fr/#faq",
+                "isPartOf": { "@id": "https://nexerp.fr/#webpage" },
+                "mainEntity": [
+                    { "@type": "Question", "name": "Qu'est-ce qu'une « IA Factory pour CEGID Retail » ?", "acceptedAnswer": { "@type": "Answer", "text": "Une plateforme industrielle pour concevoir, déployer et opérer des Agents IA spécifiques aux workflows CEGID Retail : catalogue de Skills réutilisables, AgentOps, sécurité, monitoring, gouvernance et mémoire structurée. C'est le passage du POC isolé à une production industrielle gouvernée." } },
+                    { "@type": "Question", "name": "Pourquoi NEXERP se spécialise sur CEGID Retail ?", "acceptedAnswer": { "@type": "Answer", "text": "Parce que le retail spécialisé (mode, luxe, distribution) combine forte intensité opérationnelle, dépendance aux experts CEGID Retail et exigences fortes d'agilité tarifaire, promotionnelle et réseau. C'est le terrain idéal pour les Agents IA supervisés." } },
+                    { "@type": "Question", "name": "Combien de temps pour automatiser un premier workflow CEGID Retail ?", "acceptedAnswer": { "@type": "Answer", "text": "8 à 12 semaines via notre Automation Sprint : diagnostic, design, configuration, supervision humaine, mise en production et mesure ROI. Notre offre Diagnostic (4 semaines) permet de cadrer en amont." } },
+                    { "@type": "Question", "name": "Quels domaines fonctionnels CEGID Retail couvrez-vous ?", "acceptedAnswer": { "@type": "Answer", "text": "Les 17 domaines fonctionnels de la plateforme CEGID Retail : Référentiel Produit & Stock, Tarifs/Ventes/Promotions, Réassortiment Magasins, Fonctionnalités Transversales, Utilisateurs/Droits/Sécurité, Reporting/Analyses/Alertes, Environnement Y2 & Paramétrage, CRM & Clienteling, SAV & Service Client, Pilotage Omni-Commerce, Multisociété & Franchise, Achats & Sourcing, Point de Vente/POS, Budget/Prévisions/Personnel, Localisation & Fiscalité, Finance & Contrôle de Gestion, Outils Techniques & Intégration." } },
+                    { "@type": "Question", "name": "Qu'est-ce que le Human-in-the-Loop dans votre approche ?", "acceptedAnswer": { "@type": "Answer", "text": "Les Agents IA exécutent les tâches répétitives, mais chaque décision impactante (validation, exception, escalade) revient à un expert CEGID Retail humain. Cela garantit qualité, conformité et acceptation métier." } },
+                    { "@type": "Question", "name": "Comment garantissez-vous la conformité (RGPD, AI Act, DORA) ?", "acceptedAnswer": { "@type": "Answer", "text": "Registre des agents, classification des risques, sécurité prompt injection, data leakage, secrets, auditabilité complète. Nos agents sont conçus by design pour passer un audit de conformité." } },
+                    { "@type": "Question", "name": "Quels agents IA utilisez-vous ?", "acceptedAnswer": { "@type": "Answer", "text": "Nous orchestrons selon le cas d'usage : OpenClaw, Hermes Agent, Claude Managed Agents (Anthropic), ChatGPT Autonomous Agent (OpenAI), MiniMax Agent et KIMI Agent." } },
+                    { "@type": "Question", "name": "Et si nous n'avons pas encore de cas d'usage clair ?", "acceptedAnswer": { "@type": "Answer", "text": "C'est précisément l'objet de notre Diagnostic CEGID Retail & IA de 4 semaines : nous identifions les workflows à fort enjeu et livrons un backlog priorisé d'automatisations." } }
+                ]
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#hero" class="logo-link">
+                <img src="/assets/nexerp-logo.png" alt="NEXERP — IA Factory pour CEGID Retail" class="logo">
+            </a>
+            <nav class="nav" id="nav">
+                <a href="#problemes" class="nav-link">Problèmes</a>
+                <a href="#methode" class="nav-link">Méthode</a>
+                <a href="#offres" class="nav-link">Offres</a>
+                <a href="#use-cases" class="nav-link">Domaines</a>
+                <a href="#ia-factory" class="nav-link">IA Factory</a>
+                <a href="#fondateurs" class="nav-link">Fondateurs</a>
+                <a href="#contact" class="nav-link nav-cta">Diagnostic gratuit</a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="hero">
+        <div class="hero-bg"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-tag">IA Factory pour CEGID Retail — Mode, luxe &amp; retail spécialisé</span>
+                <h1 class="hero-title">
+                    Optimisez vos workflows CEGID Retail avec des
+                    <span class="text-gradient">Agents IA supervisés</span>
+                    par des experts ERP.
+                </h1>
+                <p class="hero-subtitle">
+                    NEXERP transforme vos workflows CEGID Retail <strong>complexes, manuels et à forte intensité opérationnelle</strong>
+                    en <strong>Agents IA opérationnels, sécurisés et mesurables</strong>.
+                    Pour les dirigeants du retail spécialisé qui veulent passer du POC à l'industrialisation.
+                </p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">Planifier un diagnostic CEGID Retail &amp; IA →</a>
+                    <a href="#use-cases" class="btn btn-secondary">Voir les domaines fonctionnels</a>
+                </div>
+                <div class="hero-proofs hero-proofs-4">
+                    <div class="proof"><strong>27 ans</strong><span>d'expertise CEGID</span></div>
+                    <div class="proof"><strong>26 ans</strong><span>d'architecture d'entreprise</span></div>
+                    <div class="proof"><strong>Méthode</strong><span>IA Factory propriétaire</span></div>
+                    <div class="proof"><strong>Human</strong><span>in-the-Loop garanti</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROBLÈMES ========== -->
+    <section class="section section-problems" id="problemes">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-eyebrow eyebrow-warning">Diagnostic terrain</span>
+                <h2 class="section-title">Vos workflows CEGID Retail mobilisent fortement vos équipes métiers ?</h2>
+                <p class="section-intro">
+                    Les dirigeants d'enseignes équipées CEGID Retail font face à des irritants récurrents qui pèsent
+                    sur l'efficience, la dépendance experte et la capacité à scaler le réseau.
+                </p>
+            </div>
+            <div class="problems-grid">
+                <div class="problem-card"><div class="problem-icon">⚡</div><h3>Forte intensité opérationnelle</h3><p>Vos équipes métiers et magasins passent des heures sur des tâches répétitives à faible valeur.</p></div>
+                <div class="problem-card"><div class="problem-icon">⚙️</div><h3>Paramétrages complexes</h3><p>Y2, tarification, promos, magasins : les configurations CEGID Retail s'empilent et deviennent illisibles.</p></div>
+                <div class="problem-card"><div class="problem-icon">🔗</div><h3>Intégrations fragiles</h3><p>POS, e-commerce, WMS, BI : les interfaces cassent à chaque évolution de version.</p></div>
+                <div class="problem-card"><div class="problem-icon">🐛</div><h3>Bugs sans solution claire</h3><p>Anomalies récurrentes en magasin que personne ne traite durablement.</p></div>
+                <div class="problem-card"><div class="problem-icon">📄</div><h3>Documentation illisible ou obsolète</h3><p>Procédures paramétrage dispersées, dépassées, sans mise à jour systématique.</p></div>
+                <div class="problem-card"><div class="problem-icon">👤</div><h3>Dépendance aux experts</h3><p>Trop de savoir CEGID Retail concentré sur 1-2 personnes irremplaçables.</p></div>
+                <div class="problem-card"><div class="problem-icon">🔁</div><h3>Tâches répétitives à faible valeur</h3><p>Saisies, contrôles tickets, rapprochements stocks mobilisent vos meilleurs profils.</p></div>
+                <div class="problem-card"><div class="problem-icon">🧠</div><h3>Transmission de connaissance difficile</h3><p>Le savoir-faire métier ne se capitalise pas, chaque départ crée un trou opérationnel.</p></div>
+                <div class="problem-card"><div class="problem-icon">⚖️</div><h3>Pression réglementaire</h3><p>RGPD, AI Act, DORA, fiscalité multi-pays : la conformité devient un chantier permanent.</p></div>
+            </div>
+            <p class="section-footer">
+                Si vous reconnaissez 3 de ces irritants dans votre organisation,
+                <a href="#contact"><strong>un diagnostic NEXERP de 4 semaines</strong></a> peut chiffrer l'opportunité.
+            </p>
+        </div>
+    </section>
+
+    <!-- ========== SOLUTION / APPROCHE ========== -->
+    <section class="section section-alt" id="approche">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-eyebrow">Notre approche</span>
+                <h2 class="section-title">NEXERP transforme vos irritants CEGID Retail en Agents IA contrôlés.</h2>
+                <p class="section-intro">
+                    Une démarche structurée en 8 étapes, du diagnostic à la mesure de ROI en production.
+                </p>
+            </div>
+            <div class="steps-flow">
+                <div class="step"><div class="step-num">01</div><div class="step-body"><h3>Diagnostic</h3><p>Identifier les workflows CEGID Retail à fort enjeu d'efficience.</p></div></div>
+                <div class="step"><div class="step-num">02</div><div class="step-body"><h3>Priorisation</h3><p>Sélectionner les cas d'usage à plus fort ROI.</p></div></div>
+                <div class="step"><div class="step-num">03</div><div class="step-body"><h3>Design</h3><p>Modéliser le workflow, les données et les exceptions retail.</p></div></div>
+                <div class="step"><div class="step-num">04</div><div class="step-body"><h3>Création de Skills</h3><p>Construire des compétences réutilisables et testées.</p></div></div>
+                <div class="step"><div class="step-num">05</div><div class="step-body"><h3>Configuration agent</h3><p>Mémoire, outils, accès, prompts, garde-fous.</p></div></div>
+                <div class="step"><div class="step-num">06</div><div class="step-body"><h3>Validation humaine</h3><p>Revue expert CEGID Retail avant production.</p></div></div>
+                <div class="step"><div class="step-num">07</div><div class="step-body"><h3>Mise en production</h3><p>Déploiement progressif, sandbox puis run.</p></div></div>
+                <div class="step"><div class="step-num">08</div><div class="step-body"><h3>Monitoring ROI</h3><p>Mesure valeur, coût, risques, adoption.</p></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== MÉTHODE AGENT ENGINEERING ========== -->
+    <section class="section" id="methode">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-eyebrow">Méthode propriétaire</span>
+                <h2 class="section-title">Agent Engineering — les 6 phases NEXERP</h2>
+                <p class="section-intro">
+                    Notre méthodologie propriétaire transforme un problème métier CEGID Retail en Agent IA opérationnel,
+                    de manière reproductible et industrialisable.
+                </p>
+            </div>
+            <div class="phases-grid">
+                <div class="phase-card"><div class="phase-num">1</div><h3>Identification</h3><p>Détecter les workflows répétitifs, instables ou à fort enjeu d'efficience dans votre paramétrage CEGID Retail.</p></div>
+                <div class="phase-card"><div class="phase-num">2</div><h3>Definition</h3><p>Cadrer le problème, les rôles, les règles métiers et les critères de succès mesurables.</p></div>
+                <div class="phase-card"><div class="phase-num">3</div><h3>Representation</h3><p>Modéliser le workflow, les données, les exceptions et les points de décision.</p></div>
+                <div class="phase-card"><div class="phase-num">4</div><h3>Specification</h3><p>Formaliser les prompts, skills, règles, contrôles, entrées et sorties attendues.</p></div>
+                <div class="phase-card"><div class="phase-num">5</div><h3>Configuration</h3><p>Configurer l'agent, la mémoire, les outils, les accès et les points de validation humaine.</p></div>
+                <div class="phase-card"><div class="phase-num">6</div><h3>Instantiation</h3><p>Déployer, tester, monitorer et améliorer en continu l'agent en production.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== OFFRES PACKAGÉES ========== -->
+    <section class="section section-alt" id="offres">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-eyebrow">Offres packagées</span>
+                <h2 class="section-title">4 façons de démarrer avec NEXERP</h2>
+                <p class="section-intro">
+                    Chaque offre est cadrée en durée, livrables et ROI. Choisissez selon votre maturité.
+                </p>
+            </div>
+            <div class="offers-grid">
+                <article class="offer-card">
+                    <header><span class="offer-tag">4 semaines</span><h3>Diagnostic CEGID Retail &amp; IA</h3></header>
+                    <p class="offer-pitch">Audit rapide des irritants, friction, workflows manuels, bugs récurrents et opportunités d'automatisation sur votre paramétrage CEGID Retail.</p>
+                    <ul class="offer-list">
+                        <li>Cartographie des workflows à fort enjeu</li>
+                        <li>Score IA Readiness CEGID Retail</li>
+                        <li>Backlog priorisé d'automatisations</li>
+                        <li>Restitution dirigeants 1 page</li>
+                    </ul>
+                    <a href="#contact?besoin=diagnostic" class="btn btn-secondary offer-cta">Demander un diagnostic →</a>
+                </article>
+                <article class="offer-card offer-featured">
+                    <header><span class="offer-tag offer-tag-hot">8 à 12 semaines</span><h3>Automation Sprint</h3></header>
+                    <p class="offer-pitch">Construire un premier Agent IA sur un workflow CEGID Retail prioritaire, supervisé par un expert.</p>
+                    <ul class="offer-list">
+                        <li>Design + Skills + Configuration</li>
+                        <li>MVP agentique testé et validé</li>
+                        <li>Recette par expert CEGID Retail</li>
+                        <li>Mesure ROI immédiate</li>
+                    </ul>
+                    <a href="#contact?besoin=sprint" class="btn btn-primary offer-cta">Lancer un sprint →</a>
+                </article>
+                <article class="offer-card">
+                    <header><span class="offer-tag">6 mois</span><h3>IA Factory CEGID Retail</h3></header>
+                    <p class="offer-pitch">Industrialiser les agents, skills, memory, AgentOps et gouvernance sur l'ensemble de votre périmètre CEGID Retail.</p>
+                    <ul class="offer-list">
+                        <li>Catalogue de Skills réutilisables</li>
+                        <li>AgentOps + CI/CD agents</li>
+                        <li>Sécurité &amp; conformité by design</li>
+                        <li>Dashboard valeur/coût/adoption</li>
+                    </ul>
+                    <a href="#contact?besoin=factory" class="btn btn-secondary offer-cta">Structurer votre IA Factory →</a>
+                </article>
+                <article class="offer-card">
+                    <header><span class="offer-tag">Mensuel</span><h3>Run &amp; AgentOps</h3></header>
+                    <p class="offer-pitch">Superviser, maintenir, évaluer et améliorer en continu vos agents CEGID Retail en production.</p>
+                    <ul class="offer-list">
+                        <li>Supervision 24/7 + SLA</li>
+                        <li>Monitoring tokens, erreurs, incidents</li>
+                        <li>Amélioration continue mensuelle</li>
+                        <li>Reporting ROI dirigeants</li>
+                    </ul>
+                    <a href="#contact?besoin=run" class="btn btn-secondary offer-cta">Superviser mes agents →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CAS D'USAGE — 17 DOMAINES CEGID RETAIL ========== -->
+    <section class="section" id="use-cases">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-eyebrow">17 domaines fonctionnels couverts</span>
+                <h2 class="section-title">Agents IA sur l'ensemble du périmètre CEGID Retail</h2>
+                <p class="section-intro">
+                    Du référentiel produit au POS, de la franchise au contrôle de gestion : NEXERP couvre l'intégralité
+                    des domaines fonctionnels de la plateforme CEGID Retail.
+                </p>
+            </div>
+            <div class="domains-grid">
+                <div class="domain-card"><div class="domain-icon">📦</div><h3>Référentiel Produit &amp; Gestion de Stock</h3><p>Enrichissement fiches, contrôle stock multi-magasins, détection anomalies inventaire.</p></div>
+                <div class="domain-card"><div class="domain-icon">💰</div><h3>Tarifs, Ventes &amp; Promotions</h3><p>Cohérence tarifaire, génération promos saisonnières, contrôle marges.</p></div>
+                <div class="domain-card"><div class="domain-icon">🔄</div><h3>Réassortiment Magasins</h3><p>Recommandations réassort, alertes ruptures, équilibrage inter-magasins.</p></div>
+                <div class="domain-card"><div class="domain-icon">🛠️</div><h3>Fonctionnalités Transversales</h3><p>Workflows custom, automatisation tâches récurrentes, contrôles croisés.</p></div>
+                <div class="domain-card"><div class="domain-icon">🔐</div><h3>Utilisateurs, Droits &amp; Sécurité</h3><p>Audit habilitations, détection accès anormaux, revue droits périodique.</p></div>
+                <div class="domain-card"><div class="domain-icon">📊</div><h3>Reporting, Analyses &amp; Alertes</h3><p>Génération rapports auto, détection signaux faibles, alertes business.</p></div>
+                <div class="domain-card"><div class="domain-icon">⚙️</div><h3>Environnement Y2 &amp; Paramétrage</h3><p>Documentation paramétrages, contrôle cohérence, recette régression.</p></div>
+                <div class="domain-card"><div class="domain-icon">👥</div><h3>CRM &amp; Clienteling</h3><p>Segmentation auto, recommandations clienteling, scoring client.</p></div>
+                <div class="domain-card"><div class="domain-icon">🎧</div><h3>SAV &amp; Service Client</h3><p>Tri tickets, réponses N1 automatisées, escalade intelligente.</p></div>
+                <div class="domain-card"><div class="domain-icon">🌐</div><h3>Pilotage Omni-Commerce</h3><p>Réconciliation flux web/magasin, suivi parcours client, click &amp; collect.</p></div>
+                <div class="domain-card"><div class="domain-icon">🏢</div><h3>Multisociété &amp; Franchise</h3><p>Consolidation flux franchisés, alertes contractuelles, reporting réseau.</p></div>
+                <div class="domain-card"><div class="domain-icon">🛒</div><h3>Achats &amp; Sourcing</h3><p>Validation fournisseurs, suivi commandes, alertes délais livraison.</p></div>
+                <div class="domain-card"><div class="domain-icon">🏪</div><h3>Point de Vente / POS Front-Office</h3><p>Assistant vendeur, contrôle tickets, détection anomalies caisse.</p></div>
+                <div class="domain-card"><div class="domain-icon">📈</div><h3>Budget, Prévisions &amp; Personnel</h3><p>Prévisions ventes, dimensionnement équipes, alertes écarts budget.</p></div>
+                <div class="domain-card"><div class="domain-icon">🌍</div><h3>Localisation &amp; Fiscalité</h3><p>Conformité TVA multi-pays, contrôle taxes spécifiques, MAJ réglementaires.</p></div>
+                <div class="domain-card"><div class="domain-icon">💼</div><h3>Finance &amp; Contrôle de Gestion</h3><p>Rapprochement compta, contrôle écritures, reporting groupe.</p></div>
+                <div class="domain-card"><div class="domain-icon">🔌</div><h3>Outils Techniques &amp; Intégration</h3><p>Monitoring interfaces, détection échecs, documentation technique.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== IA FACTORY ========== -->
+    <section class="section section-dark" id="ia-factory">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-eyebrow eyebrow-light">IA Factory CEGID Retail</span>
+                <h2 class="section-title">Passez du POC IA à une IA Factory industrialisée.</h2>
+                <p class="section-intro">
+                    Un socle technique et organisationnel pour produire, opérer et gouverner des dizaines d'Agents IA CEGID Retail.
+                </p>
+            </div>
+            <div class="pillars-grid">
+                <div class="pillar"><div class="pillar-num">01</div><h3>Catalogue de Skills réutilisables</h3><p>Capacités testées, versionnées et partagées entre agents.</p></div>
+                <div class="pillar"><div class="pillar-num">02</div><h3>Agents spécifiques workflows CEGID Retail</h3><p>Conçus sur-mesure pour les processus de votre paramétrage retail.</p></div>
+                <div class="pillar"><div class="pillar-num">03</div><h3>AgentOps complet</h3><p>Évaluation, monitoring, CI/CD, sandbox, recette, production.</p></div>
+                <div class="pillar"><div class="pillar-num">04</div><h3>Sécurité &amp; conformité by design</h3><p>Prompt injection, data leakage, secrets, isolation, audit.</p></div>
+                <div class="pillar"><div class="pillar-num">05</div><h3>Dashboard exécutif</h3><p>Valeur, coût, adoption, risques en un coup d'œil.</p></div>
+                <div class="pillar"><div class="pillar-num">06</div><h3>Modèle de run récurrent</h3><p>Itérations, amélioration continue, capitalisation memory.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== GOUVERNANCE & CONFIANCE ========== -->
+    <section class="section section-alt" id="gouvernance">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-eyebrow">Gouvernance &amp; confiance</span>
+                <h2 class="section-title">Des Agents IA sous contrôle expert, conformes par construction.</h2>
+            </div>
+            <div class="governance-grid">
+                <div class="gov-card"><div class="gov-icon">🎯</div><h3>Human-in-the-Loop</h3><p>Chaque décision sensible passe par un expert CEGID Retail. Aucun automatisme aveugle.</p></div>
+                <div class="gov-card"><div class="gov-icon">🔒</div><h3>Sécurité des données</h3><p>Chiffrement, isolation, gestion fine des accès, sandboxing prompt.</p></div>
+                <div class="gov-card"><div class="gov-icon">📋</div><h3>RGPD &amp; AI Act</h3><p>Registre des traitements, classification des risques, droits utilisateurs respectés.</p></div>
+                <div class="gov-card"><div class="gov-icon">🔍</div><h3>Auditabilité complète</h3><p>Traçabilité des décisions agent, logs immuables, revue dirigeants.</p></div>
+                <div class="gov-card"><div class="gov-icon">💰</div><h3>Monitoring des coûts</h3><p>Tokens, runs, infra : visibilité fine par agent et par cas d'usage.</p></div>
+                <div class="gov-card"><div class="gov-icon">✅</div><h3>Validation expert avant prod</h3><p>Recette systématique par un expert CEGID Retail certifié avant déploiement.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ROI ========== -->
+    <section class="section" id="roi">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-eyebrow">Mesure de valeur</span>
+                <h2 class="section-title">Mesurez la valeur de chaque agent.</h2>
+                <p class="section-intro">
+                    Nos agents sont pilotés par ROI : 8 indicateurs suivis en continu, restitués aux dirigeants.
+                </p>
+            </div>
+            <div class="roi-grid">
+                <div class="roi-card"><div class="roi-icon">⏱</div><h4>Temps économisé</h4><p>Heures expertes libérées par mois et par workflow.</p></div>
+                <div class="roi-card"><div class="roi-icon">🎯</div><h4>Erreurs évitées</h4><p>Nombre d'anomalies détectées avant impact métier.</p></div>
+                <div class="roi-card"><div class="roi-icon">📉</div><h4>Charge opérationnelle</h4><p>Réduction de la charge récurrente des équipes.</p></div>
+                <div class="roi-card"><div class="roi-icon">🎫</div><h4>Tickets récurrents</h4><p>Diminution des tickets de niveau 1 et 2.</p></div>
+                <div class="roi-card"><div class="roi-icon">🧑‍🎓</div><h4>Dépendance experts</h4><p>Réduction du bus factor sur les profils clés.</p></div>
+                <div class="roi-card"><div class="roi-icon">🚀</div><h4>Délai de traitement</h4><p>Time-to-resolution divisé par 2 à 10 selon workflow.</p></div>
+                <div class="roi-card"><div class="roi-icon">💸</div><h4>Coût par run</h4><p>Coût tokens + infra par exécution d'agent.</p></div>
+                <div class="roi-card"><div class="roi-icon">📈</div><h4>Adoption utilisateurs</h4><p>Taux d'usage effectif par les équipes métiers.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FONDATEURS ========== -->
+    <section class="section section-alt" id="fondateurs">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-eyebrow">Fondateurs</span>
+                <h2 class="section-title">L'alliance rare entre l'expertise terrain CEGID Retail et l'architecture d'IA d'entreprise.</h2>
+            </div>
+            <div class="founders-grid">
+                <div class="founder-card">
+                    <div class="founder-photo founder-photo-fm">
+                        <img src="/assets/francois-mam.jpg" alt="François MAM" onerror="this.style.display='none';this.parentElement.classList.add('fallback');this.parentElement.textContent='FM';">
+                    </div>
+                    <h3>François MAM</h3>
+                    <p class="founder-title">Co-fondateur — Expert CEGID Retail</p>
+                    <p class="founder-bio">
+                        Sérial entrepreneur, <strong>27 ans d'expertise CEGID</strong> avec focus retail spécialisé
+                        (mode, luxe, distribution). Pilote l'expertise produit CEGID Retail et l'intégration
+                        des workflows métier.
+                    </p>
+                    <a href="mailto:francois.mam@nexerp.fr" class="founder-email">✉ francois.mam@nexerp.fr</a>
+                </div>
+                <div class="founder-card">
+                    <div class="founder-photo founder-photo-ry">
+                        <img src="/assets/richard-yi.jpg" alt="Richard YI" onerror="this.style.display='none';this.parentElement.classList.add('fallback');this.parentElement.textContent='RY';">
+                    </div>
+                    <h3>Richard YI</h3>
+                    <p class="founder-title">Co-fondateur — Enterprise Architect &amp; Auteur</p>
+                    <p class="founder-bio">
+                        <strong>26 ans d'architecture d'entreprise</strong> et auteur. Dirige la stratégie IA,
+                        l'architecture agentique, l'IA Factory et la gouvernance de production.
+                    </p>
+                    <a href="mailto:richard.yi@nexerp.fr" class="founder-email">✉ richard.yi@nexerp.fr</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PUBLICATIONS ========== -->
+    <section class="section section-publications" id="publications">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-eyebrow">Ouvrages des fondateurs</span>
+                <h2 class="section-title">Publications de référence</h2>
+                <p class="section-intro">
+                    Richard YI, co-fondateur de NEXERP, est l'auteur de plusieurs ouvrages sur
+                    l'architecture d'entreprise, l'IA agentique et l'IA Factory — la doctrine qui fonde
+                    notre approche d'intégration CEGID Retail.
+                </p>
+            </div>
+
+            <div class="publications-grid">
+                <!-- Book 1 -->
+                <article class="pub-card">
+                    <a href="https://www.amazon.fr/dp/B0H43V6RX4" target="_blank" rel="noopener" class="pub-cover" aria-label="Voir « Executive Enterprise Architect in the Multi-Agent AI Era » sur Amazon">
+                        <img src="/assets/COUVERTURE_ExecutiveArchitecteEntreprise_fr.jpg" alt="Couverture du livre « Executive Enterprise Architect in the Multi-Agent AI Era » par Richard YI" loading="lazy">
+                    </a>
+                    <div class="pub-body">
+                        <h3>Executive Enterprise Architect in the Multi-Agent AI Era</h3>
+                        <p>Le rôle de l'architecte d'entreprise à l'ère des systèmes multi-agents.</p>
+                        <div class="pub-links">
+                            <a href="https://www.amazon.fr/dp/B0H43V6RX4" target="_blank" rel="noopener" class="pub-chip">🇫🇷 Amazon.fr</a>
+                            <a href="https://www.amazon.com/dp/B0H4618NS4" target="_blank" rel="noopener" class="pub-chip">🇺🇸 Amazon.com</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Book 2 -->
+                <article class="pub-card">
+                    <a href="https://www.amazon.fr/dp/B0H4NRWRDJ" target="_blank" rel="noopener" class="pub-cover" aria-label="Voir « RAG Architecture for the Enterprise AI Factory » sur Amazon">
+                        <img src="/assets/Cover_RAG_Architecture_Enterprise_AI_Factory_FR.jpg" alt="Couverture du livre « RAG Architecture for the Enterprise AI Factory » par Richard YI" loading="lazy">
+                    </a>
+                    <div class="pub-body">
+                        <h3>RAG Architecture for the Enterprise AI Factory</h3>
+                        <p>Concevoir une architecture RAG robuste pour l'IA Factory d'entreprise.</p>
+                        <div class="pub-links">
+                            <a href="https://www.amazon.fr/dp/B0H4NRWRDJ" target="_blank" rel="noopener" class="pub-chip">🇫🇷 Amazon.fr</a>
+                            <a href="https://www.amazon.com/dp/B0H4MDMBC9" target="_blank" rel="noopener" class="pub-chip">🇬🇧 Amazon.com</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Book 3 -->
+                <article class="pub-card">
+                    <a href="https://www.amazon.com/dp/B0H531221M" target="_blank" rel="noopener" class="pub-cover" aria-label="Voir « Le Playbook de l'Entreprise Agentique » sur Amazon">
+                        <img src="/assets/AgenticEnterprisePlaybook_fr.jpg" alt="Couverture du livre « Le Playbook de l'Entreprise Agentique » par Richard YI" loading="lazy">
+                    </a>
+                    <div class="pub-body">
+                        <h3>Le Playbook de l'Entreprise Agentique</h3>
+                        <p>Le guide opérationnel pour industrialiser l'entreprise agentique.</p>
+                        <div class="pub-links">
+                            <a href="https://www.amazon.com/dp/B0H531221M" target="_blank" rel="noopener" class="pub-chip">🇫🇷 eBook</a>
+                            <a href="https://www.amazon.com/dp/B0H4Z4Q5CQ" target="_blank" rel="noopener" class="pub-chip">🇬🇧 eBook</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Book 4 -->
+                <article class="pub-card">
+                    <a href="https://www.amazon.fr/dp/B0H4RTBVVP" target="_blank" rel="noopener" class="pub-cover" aria-label="Voir « Agents IA d'Entreprise » sur Amazon">
+                        <img src="/assets/EnterpriseAIAgents_fr.png" alt="Couverture du livre « Agents IA d'Entreprise » par Richard YI" loading="lazy">
+                    </a>
+                    <div class="pub-body">
+                        <h3>Agents IA d'Entreprise <span class="pub-alt">/ Enterprise AI Agents</span></h3>
+                        <p>Déployer des agents IA en entreprise : méthodes, patterns et gouvernance.</p>
+                        <div class="pub-links">
+                            <a href="https://www.amazon.fr/dp/B0H4RTBVVP" target="_blank" rel="noopener" class="pub-chip">🇫🇷 Kindle</a>
+                            <a href="https://www.amazon.fr/dp/B0H4TS7FRJ" target="_blank" rel="noopener" class="pub-chip">🇫🇷 Broché</a>
+                            <a href="https://www.amazon.com/dp/B0H2K1BBMT" target="_blank" rel="noopener" class="pub-chip">🇬🇧 Kindle</a>
+                            <a href="https://www.amazon.com/dp/B0H4RVV6RC" target="_blank" rel="noopener" class="pub-chip">🇬🇧 Broché</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Book 5 -->
+                <article class="pub-card">
+                    <a href="https://www.amazon.fr/dp/B0H4W9ZXYD" target="_blank" rel="noopener" class="pub-cover" aria-label="Voir « Architecte Solution Augmenté grâce à l'IA » sur Amazon">
+                        <img src="/assets/AI-AugmentedSolutionArchitect_fr.png" alt="Couverture du livre « Architecte Solution Augmenté grâce à l'IA » par Richard YI" loading="lazy">
+                    </a>
+                    <div class="pub-body">
+                        <h3>Architecte Solution Augmenté grâce à l'IA <span class="pub-alt">/ The AI-Augmented Solution Architect</span></h3>
+                        <p>L'architecte de solutions augmenté par l'IA : pratiques et outils.</p>
+                        <div class="pub-links">
+                            <a href="https://www.amazon.fr/dp/B0H4W9ZXYD" target="_blank" rel="noopener" class="pub-chip">🇫🇷 Kindle</a>
+                            <a href="https://www.amazon.fr/dp/B0H4WG3SHG" target="_blank" rel="noopener" class="pub-chip">🇫🇷 Broché</a>
+                            <a href="https://www.amazon.com/dp/B0H4VKXMDN" target="_blank" rel="noopener" class="pub-chip">🇬🇧 Kindle</a>
+                            <a href="https://www.amazon.com/dp/B0H4VMGZ7B" target="_blank" rel="noopener" class="pub-chip">🇬🇧 Broché</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== LEAD MAGNET ========== -->
+    <section class="section section-leadmagnet" id="lead-magnet">
+        <div class="container">
+            <div class="leadmagnet-wrap">
+                <div class="leadmagnet-content">
+                    <span class="section-eyebrow eyebrow-light">Ressource gratuite</span>
+                    <h2>Checklist : workflows CEGID Retail candidats à l'automatisation par Agents IA</h2>
+                    <p>
+                        Un référentiel structuré par domaine fonctionnel CEGID Retail pour identifier rapidement
+                        les workflows à fort ROI dans votre paramétrage : critères de sélection, gains attendus,
+                        niveau de complexité d'agentification.
+                    </p>
+                    <ul class="leadmagnet-perks">
+                        <li>✓ Workflows pré-qualifiés par domaine</li>
+                        <li>✓ Grille de priorisation ROI / faisabilité</li>
+                        <li>✓ Modèle de business case 1 page</li>
+                        <li>✓ PDF exploitable en interne</li>
+                    </ul>
+                </div>
+                <form class="leadmagnet-form" id="leadMagnetForm" novalidate>
+                    <h3>Recevoir la checklist</h3>
+                    <div class="form-group"><label for="lm_firstName">Prénom *</label><input type="text" id="lm_firstName" name="firstName" required></div>
+                    <div class="form-group"><label for="lm_lastName">Nom *</label><input type="text" id="lm_lastName" name="lastName" required></div>
+                    <div class="form-group"><label for="lm_email">Email professionnel *</label><input type="email" id="lm_email" name="email" required></div>
+                    <div class="form-group"><label for="lm_company">Société *</label><input type="text" id="lm_company" name="company" required></div>
+                    <div class="form-group">
+                        <label for="lm_domain">Domaine CEGID Retail principal</label>
+                        <select id="lm_domain" name="domain">
+                            <option value="">— Choisir —</option>
+                            <option value="referentiel">Référentiel Produit &amp; Stock</option>
+                            <option value="tarifs">Tarifs, Ventes &amp; Promotions</option>
+                            <option value="reassort">Réassortiment Magasins</option>
+                            <option value="transversales">Fonctionnalités Transversales</option>
+                            <option value="securite">Utilisateurs, Droits &amp; Sécurité</option>
+                            <option value="reporting">Reporting, Analyses &amp; Alertes</option>
+                            <option value="y2">Environnement Y2 &amp; Paramétrage</option>
+                            <option value="crm">CRM &amp; Clienteling</option>
+                            <option value="sav">SAV &amp; Service Client</option>
+                            <option value="omni">Pilotage Omni-Commerce</option>
+                            <option value="multisociete">Multisociété &amp; Franchise</option>
+                            <option value="achats">Achats &amp; Sourcing</option>
+                            <option value="pos">Point de Vente / POS</option>
+                            <option value="budget">Budget, Prévisions &amp; Personnel</option>
+                            <option value="localisation">Localisation &amp; Fiscalité</option>
+                            <option value="finance">Finance &amp; Contrôle de Gestion</option>
+                            <option value="technique">Outils Techniques &amp; Intégration</option>
+                            <option value="multi">Plusieurs domaines</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="lm_irritant">Principal irritant</label>
+                        <select id="lm_irritant" name="irritant">
+                            <option value="">— Choisir —</option>
+                            <option value="manuel">Workflows manuels</option>
+                            <option value="experts">Dépendance aux experts</option>
+                            <option value="bugs">Bugs récurrents</option>
+                            <option value="documentation">Documentation</option>
+                            <option value="integration">Intégrations</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+                    <div class="form-group form-checkbox">
+                        <input type="checkbox" id="lm_rgpd" name="rgpd" required>
+                        <label for="lm_rgpd">J'accepte de recevoir la checklist et les communications de NEXERP. *</label>
+                    </div>
+                    <input type="text" name="website" class="honeypot" tabindex="-1" autocomplete="off">
+                    <button type="submit" class="btn btn-primary btn-large">Télécharger la checklist</button>
+                    <div class="form-status" id="lmStatus" aria-live="polite"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== RÉFÉRENCES SUR DEMANDE ========== -->
+    <section class="section" id="references">
+        <div class="container">
+            <div class="references-wrap">
+                <span class="section-eyebrow">Références</span>
+                <h2>Références disponibles sur demande</h2>
+                <p>
+                    Nous accompagnons des enseignes françaises équipées CEGID Retail (mode, luxe, distribution
+                    spécialisée) dans la confidentialité. La liste de nos clients et les études de cas détaillées
+                    sont communiquées aux dirigeants sous accord de confidentialité, à l'occasion d'un échange
+                    préliminaire.
+                </p>
+                <a href="#contact" class="btn btn-secondary">Demander nos références →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FAQ ========== -->
+    <section class="section section-alt" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-eyebrow">FAQ</span>
+                <h2 class="section-title">Questions fréquentes des dirigeants</h2>
+            </div>
+            <div class="faq-list">
+                <details class="faq-item"><summary>Qu'est-ce qu'une « IA Factory pour CEGID Retail » ?</summary><p>Une plateforme industrielle pour concevoir, déployer et opérer des Agents IA spécifiques aux workflows CEGID Retail : catalogue de Skills réutilisables, AgentOps, sécurité, monitoring, gouvernance et mémoire structurée. C'est le passage du POC isolé à une production industrielle gouvernée.</p></details>
+                <details class="faq-item"><summary>Pourquoi NEXERP se spécialise sur CEGID Retail ?</summary><p>Parce que le retail spécialisé (mode, luxe, distribution) combine forte intensité opérationnelle, dépendance aux experts CEGID Retail et exigences fortes d'agilité tarifaire, promotionnelle et réseau. C'est le terrain idéal pour les Agents IA supervisés.</p></details>
+                <details class="faq-item"><summary>Combien de temps pour automatiser un premier workflow CEGID Retail ?</summary><p>8 à 12 semaines via notre <strong>Automation Sprint</strong> : diagnostic, design, configuration, supervision humaine, mise en production et mesure ROI. Notre offre Diagnostic (4 semaines) permet de cadrer en amont.</p></details>
+                <details class="faq-item"><summary>Quels domaines fonctionnels CEGID Retail couvrez-vous ?</summary><p>Les <strong>17 domaines fonctionnels</strong> de la plateforme CEGID Retail : Référentiel Produit &amp; Stock, Tarifs/Ventes/Promotions, Réassortiment, CRM &amp; Clienteling, SAV, POS, Omni-Commerce, Multisociété &amp; Franchise, Achats, Reporting, Budget, Finance, Localisation, Sécurité, Y2, Outils Techniques, Fonctionnalités Transversales.</p></details>
+                <details class="faq-item"><summary>Qu'est-ce que le Human-in-the-Loop dans votre approche ?</summary><p>Les Agents IA exécutent les tâches répétitives, mais chaque décision impactante (validation, exception, escalade) revient à un expert CEGID Retail humain. Cela garantit qualité, conformité et acceptation métier.</p></details>
+                <details class="faq-item"><summary>Comment garantissez-vous la conformité (RGPD, AI Act, DORA) ?</summary><p>Registre des agents, classification des risques, sécurité prompt injection, data leakage, secrets, auditabilité complète. Nos agents sont conçus by design pour passer un audit de conformité.</p></details>
+                <details class="faq-item"><summary>Quels agents IA utilisez-vous ?</summary><p>Nous orchestrons selon le cas d'usage : <strong>OpenClaw</strong>, <strong>Hermes Agent</strong>, <strong>Claude Managed Agents</strong> (Anthropic), <strong>ChatGPT Autonomous Agent</strong> (OpenAI), <strong>MiniMax Agent</strong> et <strong>KIMI Agent</strong>.</p></details>
+                <details class="faq-item"><summary>Et si nous n'avons pas encore de cas d'usage clair ?</summary><p>C'est précisément l'objet de notre <strong>Diagnostic CEGID Retail &amp; IA</strong> de 4 semaines : nous identifions les workflows à fort enjeu et livrons un backlog priorisé d'automatisations.</p></details>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="section section-contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-eyebrow">Contact</span>
+                <h2 class="section-title">Obtenir un diagnostic sous 48h</h2>
+                <p class="section-intro">Réponse d'un co-fondateur sous 48h ouvrées. Confidentialité garantie.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>NEXERP</h3>
+                    <address class="contact-address">
+                        66, avenue des Champs-Élysées<br>
+                        75008 Paris, France
+                    </address>
+                    <div class="contact-line"><span class="contact-label">Email général</span><a href="mailto:contact@nexerp.fr">contact@nexerp.fr</a></div>
+                    <div class="contact-line"><span class="contact-label">Expertise CEGID Retail</span><a href="mailto:francois.mam@nexerp.fr">francois.mam@nexerp.fr</a></div>
+                    <div class="contact-line"><span class="contact-label">Architecture &amp; IA Factory</span><a href="mailto:richard.yi@nexerp.fr">richard.yi@nexerp.fr</a></div>
+                    <div class="contact-promises">
+                        <p>✓ Réponse sous 48h ouvrées</p>
+                        <p>✓ Confidentialité contractuelle</p>
+                        <p>✓ Premier échange sans engagement</p>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm" novalidate>
+                    <div class="form-row">
+                        <div class="form-group"><label for="firstName">Prénom *</label><input type="text" id="firstName" name="firstName" required></div>
+                        <div class="form-group"><label for="lastName">Nom *</label><input type="text" id="lastName" name="lastName" required></div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group"><label for="email">Email professionnel *</label><input type="email" id="email" name="email" required></div>
+                        <div class="form-group"><label for="company">Société *</label><input type="text" id="company" name="company" required></div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group"><label for="role">Fonction *</label>
+                            <select id="role" name="role" required>
+                                <option value="">— Votre fonction —</option>
+                                <option>CEO / DG</option><option>CTO</option><option>DSI</option>
+                                <option>DAF</option><option>DRH</option><option>COO</option>
+                                <option>Directeur métier</option><option>Manager</option><option>Autre</option>
+                            </select>
+                        </div>
+                        <div class="form-group"><label for="domain">Domaine CEGID Retail *</label>
+                            <select id="domain" name="domain" required>
+                                <option value="">— Domaine concerné —</option>
+                                <option value="referentiel">Référentiel Produit &amp; Stock</option>
+                                <option value="tarifs">Tarifs, Ventes &amp; Promotions</option>
+                                <option value="reassort">Réassortiment Magasins</option>
+                                <option value="transversales">Fonctionnalités Transversales</option>
+                                <option value="securite">Utilisateurs, Droits &amp; Sécurité</option>
+                                <option value="reporting">Reporting, Analyses &amp; Alertes</option>
+                                <option value="y2">Environnement Y2 &amp; Paramétrage</option>
+                                <option value="crm">CRM &amp; Clienteling</option>
+                                <option value="sav">SAV &amp; Service Client</option>
+                                <option value="omni">Pilotage Omni-Commerce</option>
+                                <option value="multisociete">Multisociété &amp; Franchise</option>
+                                <option value="achats">Achats &amp; Sourcing</option>
+                                <option value="pos">Point de Vente / POS</option>
+                                <option value="budget">Budget, Prévisions &amp; Personnel</option>
+                                <option value="localisation">Localisation &amp; Fiscalité</option>
+                                <option value="finance">Finance &amp; Contrôle de Gestion</option>
+                                <option value="technique">Outils Techniques &amp; Intégration</option>
+                                <option value="multi">Plusieurs domaines</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group"><label for="problem">Problème principal *</label>
+                            <select id="problem" name="problem" required>
+                                <option value="">— Identifier le sujet —</option>
+                                <option value="workflow-manuel">Workflow manuel</option>
+                                <option value="mobilisation-equipes">Mobilisation forte des équipes métiers</option>
+                                <option value="bugs">Bugs récurrents</option>
+                                <option value="documentation">Documentation</option>
+                                <option value="integration">Intégration</option>
+                                <option value="exploitation">Exploitation</option>
+                                <option value="projet-ia">Projet IA / IA Factory</option>
+                            </select>
+                        </div>
+                        <div class="form-group"><label for="subject">Type de besoin *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">— Choisir une offre —</option>
+                                <option value="diagnostic">Diagnostic CEGID Retail &amp; IA (4 sem)</option>
+                                <option value="sprint">Automation Sprint (8-12 sem)</option>
+                                <option value="factory">IA Factory CEGID Retail (6 mois)</option>
+                                <option value="run">Run &amp; AgentOps (mensuel)</option>
+                                <option value="formation">Formation IA / CEGID Retail</option>
+                                <option value="recrutement">Recrutement expert</option>
+                                <option value="architecture">Architecture</option>
+                                <option value="autre">Autre</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group"><label for="message">Message *</label><textarea id="message" name="message" rows="5" required placeholder="Contexte CEGID Retail, version, taille du réseau, irritants principaux…"></textarea></div>
+                    <div class="form-group form-checkbox">
+                        <input type="checkbox" id="rgpd" name="rgpd" required>
+                        <label for="rgpd">J'accepte que mes données soient traitées par NEXERP pour répondre à ma demande. <a href="/politique-confidentialite" target="_blank">Politique de confidentialité</a>. *</label>
+                    </div>
+                    <input type="text" name="website" class="honeypot" tabindex="-1" autocomplete="off">
+                    <button type="submit" class="btn btn-primary btn-large" id="submitBtn">Obtenir un diagnostic sous 48h →</button>
+                    <div class="form-status" id="formStatus" aria-live="polite"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <img src="/assets/nexerp-logo.png" alt="NEXERP" class="footer-logo">
+                <p class="footer-tagline">IA Factory pour CEGID Retail</p>
+                <p class="footer-small">Mode · Luxe · Retail spécialisé</p>
+            </div>
+            <div class="footer-cols">
+                <div class="footer-col">
+                    <h4>Offres</h4>
+                    <a href="#offres">Diagnostic CEGID Retail &amp; IA</a>
+                    <a href="#offres">Automation Sprint</a>
+                    <a href="#offres">IA Factory CEGID Retail</a>
+                    <a href="#offres">Run &amp; AgentOps</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Méthode</h4>
+                    <a href="#methode">Agent Engineering</a>
+                    <a href="#ia-factory">IA Factory</a>
+                    <a href="#gouvernance">Gouvernance</a>
+                    <a href="#roi">ROI mesurable</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Société</h4>
+                    <a href="#fondateurs">Fondateurs</a>
+                    <a href="#publications">Ouvrages des fondateurs</a>
+                    <a href="#use-cases">17 domaines CEGID Retail</a>
+                    <a href="#contact">Contact</a>
+                    <a href="mailto:contact@nexerp.fr">contact@nexerp.fr</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© <span id="year"></span> NEXERP — Tous droits réservés. SAS — 66 av. des Champs-Élysées, 75008 Paris.</p>
+                <p><a href="/mentions-legales">Mentions légales</a> · <a href="/politique-confidentialite">Politique de confidentialité</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>

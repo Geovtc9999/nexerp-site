@@ -1,0 +1,30 @@
+# NEXERP — IA Factory pour CEGID Retail
+
+> NEXERP est une société de service augmentée spécialisée dans l'intégration de **CEGID Retail** — plateforme de commerce unifié destinée au retail spécialisé (mode, luxe, distribution) — et le déploiement d'**Agents IA autonomes supervisés par des experts**. NEXERP transforme les workflows CEGID Retail complexes, manuels et à forte intensité opérationnelle en Agents IA opérationnels, sécurisés et mesurables.
+
+NEXERP combine **27 ans d'expertise CEGID** et **26 ans d'architecture d'entreprise**, une méthode propriétaire « Agent Engineering » en 6 phases, un modèle **Human-in-the-Loop**, une **IA Factory** industrialisée et une gouvernance conforme RGPD / AI Act / DORA. Cible : dirigeants (CEO, CTO, DSI, DAF, DRH, COO) d'enseignes françaises équipées de CEGID Retail.
+
+## Pages principales
+- [Accueil](https://nexerp.fr/) : positionnement, problèmes, méthode, offres, 17 domaines fonctionnels CEGID Retail couverts, gouvernance, ROI, fondateurs, contact
+- [Mentions légales](https://nexerp.fr/mentions-legales) : informations légales de l'éditeur et de l'hébergeur
+- [Politique de confidentialité](https://nexerp.fr/politique-confidentialite) : traitement des données personnelles, droits RGPD
+
+## Offres packagées
+- **Diagnostic CEGID Retail & IA** (4 semaines) : cartographie des workflows à fort enjeu + backlog d'automatisation
+- **Automation Sprint** (8 à 12 semaines) : premier Agent IA sur un workflow prioritaire, supervisé par un expert
+- **IA Factory CEGID Retail** (6 mois) : industrialisation des agents, skills, memory, AgentOps et gouvernance
+- **Run & AgentOps** (abonnement mensuel) : supervision, monitoring, ROI et réduction des risques en production
+
+## Méthode propriétaire — Agent Engineering (6 phases)
+1. Identification — 2. Definition — 3. Representation — 4. Specification — 5. Configuration — 6. Instantiation
+
+## Contact
+- Email : contact@nexerp.fr
+- François MAM (Expert CEGID Retail) : francois.mam@nexerp.fr
+- Richard YI (Enterprise Architect & Auteur) : richard.yi@nexerp.fr
+- Adresse : 66 avenue des Champs-Élysées, 75008 Paris, France
+
+## Ressources pour LLM
+- [Version complète / contexte détaillé (FR)](https://nexerp.fr/llms-full.txt)
+- [English LLM index](https://nexerp.fr/llms-en.txt)
+- [English full context](https://nexerp.fr/llms-full-en.txt)

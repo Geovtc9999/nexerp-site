@@ -1,0 +1,15 @@
+# Dépendances (réinstallées par Coolify/Nixpacks)
+node_modules/
+
+# Secrets / configuration locale (les vraies valeurs vont dans les variables Coolify)
+.env
+.env.local
+.env.production
+
+# Archives de déploiement (anciennes méthodes)
+*.zip
+
+# Logs / divers
+npm-debug.log*
+*.log
+.DS_Store
