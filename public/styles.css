@@ -1,6 +1,9 @@
 /* ===================================================================
    NEXERP — styles.css
-   Palette : Navy #1e3a8a · Green #15803d · Gold #d97706
+   Palette : Navy #1e3a8a · Green #15803d · Gold #d97706 · Encre #051c2c
+   Direction artistique V2 : éditoriale « cabinet de conseil » —
+   serif display, encre profonde, filets hairline, angles nets,
+   numérotation d'exhibits (voir couche V2 en fin de fichier).
    =================================================================== */
 
 :root {
@@ -11,17 +14,19 @@
     --green-light: #22c55e;
     --gold: #d97706;
     --gold-light: #f59e0b;
+    --ink: #051c2c;
     --text: #0f172a;
     --text-muted: #475569;
     --bg: #ffffff;
-    --bg-alt: #f8fafc;
-    --bg-dark: #0f172a;
+    --bg-alt: #f7f8fa;
+    --bg-dark: #051c2c;
     --border: #e2e8f0;
-    --radius: 14px;
-    --radius-sm: 8px;
-    --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.08);
-    --shadow: 0 4px 16px rgba(15, 23, 42, 0.08);
-    --shadow-lg: 0 12px 40px rgba(15, 23, 42, 0.12);
+    --serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+    --radius: 2px;
+    --radius-sm: 2px;
+    --shadow-sm: 0 1px 2px rgba(5, 28, 44, 0.06);
+    --shadow: 0 2px 8px rgba(5, 28, 44, 0.07);
+    --shadow-lg: 0 6px 20px rgba(5, 28, 44, 0.10);
     --header-h: 76px;
     --container: 1200px;
 }
@@ -1801,6 +1806,218 @@ a:hover { color: var(--green); }
     .legal-table { padding: 16px; overflow-x: auto; }
     .legal-table table { font-size: 13px; }
     .legal-table th, .legal-table td { padding: 8px 10px; }
+}
+
+/* ===================================================================
+   V2 — REFONTE ÉDITORIALE « CABINET DE CONSEIL »
+   Serif display · encre profonde · filets hairline · exhibits numérotés
+   Cette couche surcharge volontairement les règles historiques.
+   =================================================================== */
+
+/* ---------- V2 · Typographie display (serif) ---------- */
+.hero-title,
+.section-title,
+.leadmagnet-content h2,
+.references-wrap h2,
+.legal-hero h1,
+.value-prop h3,
+.contact-info h3,
+.portail-banner h3 {
+    font-family: var(--serif);
+    font-weight: 600;
+    letter-spacing: 0;
+}
+.hero-title {
+    font-size: clamp(38px, 5.2vw, 62px);
+    line-height: 1.08;
+    max-width: 20ch;
+}
+.section-title {
+    font-size: clamp(30px, 3.8vw, 44px);
+    line-height: 1.14;
+}
+
+/* Numéraux serif (chiffres clés, compteurs) */
+.stat-number,
+.proof strong {
+    font-family: var(--serif);
+    letter-spacing: 0;
+}
+.proof strong { font-size: 26px; font-weight: 600; }
+
+/* ---------- V2 · En-têtes de section : alignés à gauche + filet ---------- */
+.section-header {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 0 56px;
+}
+.section-eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    margin-bottom: 16px;
+}
+.section-eyebrow::before {
+    content: '';
+    width: 36px;
+    height: 1px;
+    background: currentColor;
+    flex-shrink: 0;
+}
+
+/* ---------- V2 · Hero : sobre, éditorial ---------- */
+.hero { background: var(--bg); }
+.hero-bg { background-image: none; }
+.hero-tag {
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+    color: var(--text-muted);
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 28px;
+}
+.hero-tag::before {
+    content: '';
+    width: 36px;
+    height: 1px;
+    background: var(--gold);
+}
+.text-gradient {
+    background: none;
+    -webkit-background-clip: initial;
+    background-clip: initial;
+    -webkit-text-fill-color: currentColor;
+    color: var(--navy);
+    font-style: italic;
+}
+
+/* ---------- V2 · Boutons & tags : rectangulaires ---------- */
+.btn { border-radius: 2px; border-width: 1px; }
+.agent-chip { border-radius: 2px; box-shadow: none; }
+.offer-tag {
+    background: transparent;
+    border: 1px solid var(--border);
+    border-radius: 2px;
+    letter-spacing: 0.08em;
+}
+.offer-tag-hot { background: transparent; border-color: var(--gold); }
+.offer-featured::before { border-radius: 2px; letter-spacing: 0.1em; }
+.founder-email { border: 1px solid var(--border); background: transparent; }
+
+/* ---------- V2 · Surfaces sombres : encre profonde unie ---------- */
+.section-dark,
+.value-prop,
+.contact-info,
+.section-leadmagnet,
+.portail-banner {
+    background: var(--ink);
+}
+.value-prop,
+.contact-info,
+.portail-banner {
+    border-top: 2px solid var(--gold);
+}
+.footer { background: var(--ink); }
+.leadmagnet-wrap { border-radius: 2px; box-shadow: none; }
+
+/* ---------- V2 · Exhibits numérotés (remplace les emojis) ---------- */
+.problem-icon, .gov-icon, .roi-icon, .domain-icon,
+.product-icon, .usecase-icon, .why-icon, .service-icon { display: none; }
+
+.problems-grid { counter-reset: exhibit; }
+.governance-grid { counter-reset: exhibit; }
+.roi-grid { counter-reset: exhibit; }
+.domains-grid { counter-reset: exhibit; }
+
+.problem-card::before,
+.gov-card::before,
+.roi-card::before,
+.domain-card::before {
+    counter-increment: exhibit;
+    content: counter(exhibit, decimal-leading-zero);
+    display: block;
+    font-family: var(--serif);
+    font-size: 21px;
+    font-weight: 600;
+    color: var(--gold);
+    line-height: 1;
+    margin-bottom: 14px;
+}
+.roi-card { text-align: left; }
+.problem-card {
+    border-left: 1px solid var(--border);
+    border-top: 2px solid var(--gold);
+}
+.problem-card:hover { transform: none; border-top-color: var(--navy); }
+
+/* Numéros de phases & étapes : numéraux serif, sans médaillon */
+.phase-num {
+    position: static;
+    width: auto;
+    height: auto;
+    border-radius: 0;
+    background: none;
+    box-shadow: none;
+    display: block;
+    font-family: var(--serif);
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--gold);
+}
+.phase-card { background: #fff; }
+.phase-card h3 { margin: 12px 0 10px; }
+.step-num {
+    font-family: var(--serif);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--gold);
+    letter-spacing: 0;
+}
+.pillar-num {
+    font-family: var(--serif);
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--gold-light);
+    letter-spacing: 0;
+}
+
+/* ---------- V2 · Listes : tirets éditoriaux ---------- */
+.offer-list li::before,
+.service-card ul li::before {
+    content: '—';
+    color: var(--green);
+    font-weight: 400;
+}
+.usecase-card ul li::before { content: '—'; font-weight: 400; }
+
+/* ---------- V2 · Détails ---------- */
+.faq-item { background: #fff; }
+.founder-photo,
+.founder-photo-fm,
+.founder-photo-ry {
+    box-shadow: 0 0 0 4px #fff, 0 0 0 5px var(--border);
+}
+.founder-card:hover { transform: none; box-shadow: var(--shadow); }
+.offer-card:hover,
+.usecase-card:hover,
+.product-card:hover,
+.blog-card:hover,
+.pub-card:hover,
+.phase-card:hover,
+.domain-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+    border-color: var(--navy);
+}
+@media (max-width: 768px) {
+    .section-header { margin-bottom: 40px; }
 }
 
 @media (max-width: 480px) {
